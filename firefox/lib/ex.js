@@ -133,21 +133,6 @@ function makeLoginForm() {
                     )
                     .append( $("<button>", { id: "loginbutton", class: "btn btn-lg btn-success btn-block" }).text("Sign In") )
                     .append( $("<button>", { id: "cookiebutton", class: "btn btn-lg btn-success btn-block" }).text("Copy Cookies") )
-                    .append(
-                        $("<div>", { align: "center", style: "margin-top: 12px; font-size: 12px;" })
-                            .append($("<a>", { href: "http://haruhichan.com/", target: "_blank" }).text("Presented by Haruhichan"))
-                            .append($("<br>"))
-                            .append($("<a>", { href: "http://haruhichan.com/forum/showthread.php?24909-Firefox-ExHentai-Easy-v2-Get-past-sad-panda!", target: "_blank" }).text("Support - Contact - Donate"))
-                            .append($("<br>"))
-                            .append($("<a>", { href: "bitcoin:15kJLmbnU4jyY8TcJ4jJ6uBKaHv3PqPm5n" }).text("Bitcoin"))
-                            .append(": 15kJLmbnU4jyY8TcJ4jJ6uBKaHv3PqPm5n")
-                            .append($("<br>"))
-                            .append($("<a>", { href: "dogecoin:D8LBPmry9QeEpFAgJhoQcyfD4jEW1CtBVi" }).text("Dogecoin"))
-                            .append(": D8LBPmry9QeEpFAgJhoQcyfD4jEW1CtBVi")
-                            .append($("<br>"))
-                            .append($("<a>", { href: "litecoin:LLmgH3dduf4UAJy1xovv7Zmx3yz4qSqcuh" }).text("Litecoin"))
-                            .append(": LLmgH3dduf4UAJy1xovv7Zmx3yz4qSqcuh")
-                    )
             )
     );
 

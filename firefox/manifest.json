@@ -9,7 +9,7 @@
 		{
 			"run_at": "document_start",
 			"matches": ["https://exhentai.org/", "https://exhentai.org/#"],
-			"css": ["css/bootstrap.min.css", "css/bootstrap-theme.min.css", "css/login.css"],
+			"css": ["css/login.css"],
 			"js": ["lib/jquery.min.js", "lib/bootstrap.min.js", "lib/ex.js"]
 		},
 		{
@@ -36,5 +36,10 @@
 		"*://e-hentai.org/*",
 		"*://*.e-hentai.org/*",
 		"*://exhentai.org/*"
-	]
+	],
+	"applications": {
+		"gecko": {
+			"id": "something@mozilla.org"
+		}
+	}
 }
